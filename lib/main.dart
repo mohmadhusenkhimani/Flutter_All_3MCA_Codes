@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:mk1/Practice.dart';
 import 'package:mk1/column_row.dart';
+import 'package:mk1/image_example.dart';
 import 'package:mk1/task_1.dart';
 
 void main() {
@@ -32,7 +34,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Task1()
+      home: ImageExample()
     );
   }
 }
